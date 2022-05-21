@@ -1,0 +1,318 @@
+body{
+    background-color: #555;
+    display: flex;
+    justify-content: center;
+}
+.car{
+    position: relative ;
+    top: 300px;
+    left: 0px;  
+    transform: translateX(10vw);
+    transition: transform 5s ease-in-out;
+}
+.cabotLeft1{
+    height: 89px;
+    background-color: transparent;
+    width: 10px;
+    transform: rotate(50deg);
+    border-left: 1px solid #000;
+    border-radius: 50%;
+}
+.cabotTop1{
+    position: absolute;
+    height: 10px;
+    background-color: transparent;
+    width: 150px;
+    border-top: 1px solid #000;
+    border-radius: 50%;
+    top: 10px;
+    left: 38px;
+}
+.cabotRight1{
+    position: absolute;
+    top: 0px;
+    left:212px ;
+    height: 70px;
+    background-color: transparent;
+    width: 10px;
+    transform: rotate(-60deg);
+    border-right: 1px solid #000;
+    border-radius: 50%;
+}
+.bodyTopRight{
+    position: absolute;
+    height: 5px;
+    background-color: transparent;
+    width: 70px;
+    border-top: 1px solid #000;
+    border-radius: 50%;
+    left: 248px;
+    top: 52px;
+    transform: skew(5deg,5deg);
+}
+.bodyTopLeft{
+    position: absolute;
+    height: 10px;
+    background-color: transparent;
+    width: 150px;
+    border-top: 1px solid #000;
+    border-radius: 50% 50% 30% 50%;
+    top: 77px;
+    left: -170px;
+    transform: rotate(-10deg) skew(-5deg,-5deg);
+}
+.cabotBottom{
+    position: absolute;
+    height: 4px;
+    background-color: transparent;
+    width: 263px;
+    border-top: 1px solid #000;
+    border-radius: 50%;
+    top: 70px;
+    left: -13px;
+    box-shadow: 0px 3px 5px gray,
+    0px 0px 10px #000 inset;
+}
+.cabotTop2{
+    position: absolute;
+    height: 10px;
+    background-color: transparent;
+    width: 120px;
+    border-top: 1px solid #000;
+    border-radius: 50%;
+    top: 15px;
+    left: 50px;
+}
+.cabotRight2{
+    position: absolute;
+    top: -6px;
+    left:200px ;
+    height: 102px;
+    background-color: transparent;
+    width: 10px;
+    transform: rotate(-60deg);
+    border-right: 1px solid #000;
+    border-radius: 50%;
+}
+.cabotLeft2{
+    position: absolute;
+    left: 15px;
+    top: 4px;
+    height: 83px;
+    background-color: transparent;
+    width: 10px;
+    transform: rotate(50deg);
+    border-left: 1px solid #000;
+    border-radius: 50%;
+}
+.front{
+    position: absolute;
+    height: 80px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    border-left: 1px solid #000;
+    left: -185px;
+    top: 98px;
+    transform: skewX(-20deg);
+
+}
+.backFanosTop{
+    position: absolute;
+    height: 20px;
+    width: 10px;
+    border-right: 1px solid #000;
+    background-color: transparent;
+    border-radius: 50%;
+    transform: skewX(-10deg) skewY(-50deg);
+    left: 307px;
+    top: 61px;
+}
+.backFanosBottom{
+    position: absolute;
+    height: 30px;
+    width: 0px;
+    border-left: 1px solid #000;
+    left:320px ;
+    transform: skew(10deg);
+    top:100px ;
+}
+.backFanosBottom2{
+    position: absolute;
+    height: 40px;
+    width: 10px;
+    border-right: 1px solid #000;
+    left:315px ;
+    border-radius: 50%;
+    transform: skewX(-10deg);
+    top:130px ;
+}
+.bodyBottomRight{
+    position: absolute;
+    height: 10px;
+    width: 52px;
+    border-bottom: 1px solid #000;
+    left:266px ;
+    transform: rotate(-10deg);
+    top:165px ;
+}
+.bodyBottomLeft1{
+    position: absolute;
+    width: 30px;
+    height: 10px;
+    border-bottom:1px solid #000;
+    transform: rotate(15deg);
+    top: 170px;
+    left: -190px;
+}
+.bodyBottomLeft2{
+    position: absolute;
+    width: 30px;
+    height: 10px;
+    border-bottom:1px solid #000;
+    top: 175px;
+    left: -162px;
+}
+.bottom{
+    position: absolute;
+    width: 240px;
+    height: 10px;
+    border-bottom: 1px solid #000;
+    top: 172px;
+    left: -53px;
+    transform: rotate(-1deg);
+    box-shadow: 0px 0px 5px #000 inset,
+                0px 0px 5px #000;
+}
+.adham{
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    border-bottom:1px solid #000;
+    border-radius: 50% 50% 10% 50%;
+    top: 51px;
+    left: -35px;
+    transform: rotate(0deg);
+}
+.fanosBack{
+    position: absolute;
+    width: 18px;
+    height:18px;
+    border: 1px solid #000;
+    right:-310px;
+    bottom: -11px;
+    border-radius:3px 7px 5px 0px ;
+    transform: skewX(10deg);
+    background-image: radial-gradient(#ff0000,#440303, #9b0606);
+    box-shadow: none;
+}
+.fanosFront{
+    position: absolute;
+    width: 30px;
+    height: 15px;
+    border: 1px solid #000;
+    bottom: -37px;
+    left: -170px;
+    transform: skewX(-45deg);
+    border-radius: 10px 0px 3px 5px;
+    background-color: gray;
+    box-shadow: none;
+}
+.ghad1{
+    position: absolute;
+    width: 2px;
+    height: 23px;
+    transform: rotate(30deg);
+    box-shadow:0px 0px 10px #333 inset, 5px 0px 6px #000,0px 0px 7px gray;
+    right: -297px;
+    bottom: 10px;
+    border-right: 1px solid #333;
+    border-radius: 50%;
+}
+.ghad2{
+    position: absolute;
+    width: 340px;
+    height: 3px;
+    box-shadow: 0px -2px 5px gray;
+    left: -42px;
+    bottom: 6px;
+    border-radius: 50% 10% 50% 50%;
+    border-bottom: 1px solid #333;
+
+}
+/*.ghad3{
+    position: absolute;
+    width: 140px;
+    height: 2px;
+    box-shadow:
+                0px 0px 5px gray inset;
+    left: -150px;
+    transform: rotate(-15deg) translate(0px,10px);
+    border-radius: 50% 50% 10% 10%;
+    bottom: 6px;
+    /*border-bottom: 1px solid #333;
+}*/
+
+.glass1{
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    border: 1px solid #fff;
+    bottom: 22px;
+    left: 25px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 20%;
+    transform: skew(-25deg);
+    box-shadow: 0px 0px 40px aquamarine inset;
+    background-color: #fff;
+}
+.glass2{
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    border: 1px solid #fff;
+    left: 120px;
+    top: 25px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    box-shadow: 0px 0px 40px aquamarine inset;
+    background-color: #fff; 
+}
+button{
+    height: 30px;
+    margin: 5px;
+    background-color: aquamarine;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    outline: none;
+}
+button:hover{
+    background-color: #f0f;
+    border: 1px solid #f0f;
+    transform: scale(1.2);
+}
+/*start coach*/
+.coachParent1{
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    /* background-color: #000; */
+    border-radius: 50%;
+    left: -132px;
+    top: 144px;
+    border-block-start: 35px solid #000;
+    z-index: -1;
+}
+.coachParent2{
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    left:187px;
+    top: 140px;
+    border-block-start: 35px solid #000;
+    z-index: -1;
+}
+/*end caoch*/

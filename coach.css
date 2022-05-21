@@ -1,0 +1,147 @@
+.coach{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.coach1{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 50px;
+    left: 190px;
+}
+@keyframes wheeling{
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+.coach2{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 50px;
+    left: -128px;
+}
+.coachOutBord{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #111;
+    top: 10px;
+    left: 5px;
+    border: 3px solid #000;
+    animation-name: wheeling;
+    animation-duration: 1.5s;
+    animation-iteration-count: 0;
+    animation-timing-function: linear;
+    
+}
+.coachIntBord{
+    position: absolute;
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /*box-shadow: 0px 0px 3px #000 inset;*/
+}
+.coachIntBord2{
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    box-shadow: 5px 5px 0px #000 inset,
+                -5px 5px 0px #000 inset,
+                5px -5px 0px #000 inset,
+                -5px -5px 0px #000 inset,
+                0px 1px 3px #000,
+                0px -1px 3px #000;
+    transform: translate(-50%,-50%);
+}
+.coachIntBord3{
+    position: absolute;
+    width: 45%;
+    height: 45%;
+    border-radius: 50%;
+    background-color: #eee;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow:-0px 5px 5px gray;
+}
+.coachIntBord4{
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow:0px 3px 3px #000;
+}
+.coachIntBord5{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: gray;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow:0px 0px 2px #000 inset;
+}
+.ref{
+    width: 4px;
+    height: 15px;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px gray inset,
+                1px 0px 3px #000;
+}
+.ref1{
+    position: absolute;
+    transform: translateX(23px) translateY(8px) rotate(-15deg);
+}
+.ref2{
+    position: absolute;
+    transform: translateX(16px) translateY(12px) rotate(-47deg);
+}
+.ref3{
+    position: absolute;
+    transform: translateX(31px) translateY(8px) rotate(23deg);
+}
+.ref4{
+    position: absolute;
+    transform: translateX(13px) translateY(19px) rotate(97deg);
+}
+.ref5{
+    position: absolute;
+    transform: translateX(14px) translateY(27px) rotate(56deg);
+}
+.ref6{
+    position: absolute;
+    transform: translateX(37px) translateY(13px) rotate(61deg);
+}
+.ref7{
+    position: absolute;
+    transform: translateX(36px) translateY(28px) rotate(-51deg);
+}
+.ref8{
+    position: absolute;
+    transform: translateX(30px) translateY(33px) rotate(-19deg);
+}
+.ref9{
+    position: absolute;
+    transform:translateX(21px) translateY(32px) rotate(26deg);
+}
+.ref10{
+    position: absolute;
+    transform: translateX(39px) translateY(21px) rotate(-81deg);
+}
